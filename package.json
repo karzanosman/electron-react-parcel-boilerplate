@@ -1,0 +1,19 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "client": "parcel src/index.html --no-cache --out-dir=src/dist",
+    "build": "parcel build src/index.html --no-cache --public-url ./ --out-dir=src/dist",
+    "electron": "electron .",
+    "dev": "concurrently \"npm run client\" \"npm run electron\"",
+    "prod": "NODE_ENV=production electron ."
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.6.1",
+    "electron": "^2.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "dependencies": {}
+}
