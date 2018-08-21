@@ -2,22 +2,13 @@
 simple electron-react-boilerplate made with parcel js
 
 
-git clone https://github.com/karzanosman/electron-react-parcel-boilerplate.git my-app
- <br />
-cd my-app
- <br />
-npm i
+git clone https://github.com/karzanosman/electron-react-parcel-boilerplate.git my-app <br />
+cd my-app <br />
+npm i <br />
 
- <br />
-  <br />
-to start development:
- <br />
-npm run dev 
+to start development: <br />
+npm run dev <br />
 
- <br />
-  <br />
-to build and start production:
- <br />
-npm run build
- <br />
-npm run prod
+to build and start production: <br />
+npm run build <br />
+npm run prod <br />
