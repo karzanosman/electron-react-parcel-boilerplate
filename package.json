@@ -1,4 +1,14 @@
 {
+  "name": "basic-electron-react-parcel-boilerplate",
+  "version": "0.1.0",
+  "description": "Basic electron react boilerplate made with parcel bundler",
+  "author": "Karzan Osman",
+  "homepage": "https://github.com/karzanosman/electron-react-parcel-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karzanosman/electron-react-parcel-boilerplate.git"
+  },
+  "license": "MIT",
   "main": "main.js",
   "scripts": {
     "client": "parcel src/index.html --no-cache --out-dir=src/dist",
@@ -15,5 +25,9 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
-  "dependencies": {}
+  "keywords": [
+    "electron",
+    "react",
+    "parcel"
+  ]
 }
